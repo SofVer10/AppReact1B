@@ -1,0 +1,95 @@
+.student-container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 60px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f0e5f5; 
+    margin-left: 675px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.student-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.student-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.student-input button {
+    padding: 10px;
+    background-color: #7828a7; 
+    color: white;
+    border: none; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none
+}
+
+.student-input button:hover {
+    background-color: #a32b85; 
+    outline: none;
+    border: none
+
+}
+
+input{
+    outline: none;
+    border: none
+}
+
+
+.student-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-list th, .student-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    
+}
+
+.student-list th {
+    background-color: #f2f2f2;
+}
+
+.student-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+
+}
+
+.student-list tr:hover {
+    background-color: #f1f1f1;
+    
+}
+
+.student-list button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none; 
+    outline: none;
+
+    cursor: pointer;
+}
+
+.student-list button:hover {
+    background-color: #991a27; 
+    outline: none;
+    border: 0;
+}
